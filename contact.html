@@ -23,7 +23,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html">Explore with Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,9 +32,14 @@
     <main>
         <section class="contact-details">
             <div class="container">
-                
-                <h2>Get in Touch</h2>
-                <p>Feel free to reach out to us through the following channels to get your Traditional Mask:</p>
+                <div class="video-container">
+                    <video width="600" height="340" controls autoplay muted>
+                        <source src="_Traditional mask curving in Galle Fort Sri Lanka Curated by Ceylon soul.mp4" type="video/mp4">
+                        
+                    </video>
+                </div>
+                <h2>Explore with Us</h2>
+                <p>Feel free to reach out to us through the following channels to explore the Traditional Mask culture.</p>
                 <p>Email: info@srilankanmaskculture.com</p>
                 <p>Phone: +94 123 456 789</p>
                 <p>Address: 123 Mask Street, Colombo, Sri Lanka</p>
@@ -44,6 +49,7 @@
                  </div>
             </div>
         </section>
+    
 
         <section class="contact-form">
             <div class="container_C">
@@ -51,6 +57,9 @@
                 <form id="contact-form" onsubmit="showThankYouMessage(event)">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
+
+                    <label for="name">Contact No:</label>
+                    <input type="text" id="contact" name="contact" required>
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
